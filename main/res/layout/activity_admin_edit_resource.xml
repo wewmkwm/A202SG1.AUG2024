@@ -1,0 +1,61 @@
+<!-- File: activity_admin_edit_resource.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextResourceID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Resource ID"
+        android:enabled="false" />
+
+    <EditText
+        android:id="@+id/editTextResourceName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Resource Name" />
+
+    <EditText
+        android:id="@+id/editTextResourceType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Resource Type" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupAvailability"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="16dp">
+
+        <RadioButton
+            android:id="@+id/radioYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes" />
+
+        <RadioButton
+            android:id="@+id/radioNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Resource"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Resource"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

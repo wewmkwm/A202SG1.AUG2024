@@ -1,0 +1,36 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewResourceID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resource ID" />
+
+        <TextView
+            android:id="@+id/textViewResourceName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resource Name" />
+
+        <TextView
+            android:id="@+id/textViewResourceType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resource Type" />
+
+        <TextView
+            android:id="@+id/textViewAvailability"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Availability" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

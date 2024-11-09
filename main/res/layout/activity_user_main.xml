@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#2a4867">
+
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:text="Welcome back, "
+        android:textSize="20sp"
+        android:textColor="#FFFFFF" />
+
+    <ImageButton
+        android:id="@+id/button_study_room"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="85dp"
+        android:background="@null"
+        android:contentDescription="Study Room"
+        android:scaleType="fitCenter"
+        android:src="@drawable/study_room" />
+
+    <ImageButton
+        android:id="@+id/button_report"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="85dp"
+        android:background="@null"
+        android:contentDescription="Report"
+        android:scaleType="fitCenter"
+        android:src="@drawable/report" />
+
+    <ImageButton
+        android:id="@+id/button_resources"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_below="@id/button_study_room"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="0dp"
+        android:background="@null"
+        android:contentDescription="Resources"
+        android:scaleType="fitCenter"
+        android:src="@drawable/resources" />
+
+    <ImageButton
+        android:id="@+id/button_library"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="270dp"
+        android:background="@null"
+        android:layout_marginStart="0dp"
+        android:contentDescription="Library"
+        android:scaleType="fitCenter"
+        android:src="@drawable/library" />
+
+    <ImageButton
+        android:id="@+id/button_profile"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@null"
+        android:contentDescription="Profile"
+        android:scaleType="fitCenter"
+        android:src="@drawable/profile" />
+
+
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Logout"
+        android:textColor="#FFFFFF"
+        android:background="?attr/selectableItemBackground"
+        android:padding="10dp" />
+
+</RelativeLayout>
